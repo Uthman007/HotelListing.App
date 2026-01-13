@@ -12,7 +12,8 @@ namespace HotelListing.Api.Controllers
         private static List<Hotel> hotels = new List<Hotel>
         {
             new Hotel { Id = 1, Name = "Grand plaza", Address = "123 Main St", Rating = 4.5 },
-            new Hotel { Id = 2, Name = "Ocean view", Address = "456 Beach Rd", Rating = 4.8 }
+            new Hotel { Id = 2, Name = "Ocean view", Address = "456 Beach Rd", Rating = 4.8 },
+            new Hotel { Id = 2, Name = "Water view", Address = "789 Tanke Rd", Rating = 3.9 }
         };
 
         // GET: api/<HotelsController>
